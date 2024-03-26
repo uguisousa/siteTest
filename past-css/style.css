@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+    color: black;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    /* border: solid 1px; */
+    max-width: 1230px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #5f4d8dfa, #281c56);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    height: 100%;
+}
+
+section#main{
+    border: rgb(50, 32, 67) 4px solid;
+    padding: 2px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* max-width: 100%; */
+    background: rgb(136, 120, 165);
+    border-radius: 10px;
+}
+
+div.icons-main{
+    display: inline-block;
+
+}
+
+p#p-main{
+font-size: 18px;
+
+}
+h1 , p{
+    color: rgb(50, 32, 67);
+}
+.container{
+    padding: 0 2rem;
+    text-align: center;
+    font-size: 22px;
+    transform: translate(0px, 60px);
+}
+
+img#guiImg{
+    width: 10rem;
+    /* bottom: 13px; */
+    /* position: relative; */
+    /* padding:  0 12px; */
+    border-radius: 50%;
+    border: rgb(50, 32, 67) 4px solid;
+}
+div.fotoGui-main{
+    /* float: right; */
+    text-align: center;
+    /* padding: 10px; */
+    /* background-color: red; */
+    
+}
+
+img.icons-main-img{
+    width:2rem;
+    border-radius: 50%;
+    display: inline-block;
+    border: solid black;
+    display: inline-block;
+    padding: 4px;
+    position: relative;
+    top: 50%;
+    /* right: 44.1pc; */
+    transition: .4s ease-in-out;
+    
+}
+img.icons-main-img:hover{
+    transition: .4s ease-in-out;
+    transform: scale(1.25);
+}
