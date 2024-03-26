@@ -14,8 +14,8 @@ body{
     /* border: solid 1px; */
     max-width: 1230px;
     margin: 0 auto;
-    background: linear-gradient(to bottom, #5f4d8dfa, #281c56);
-    background-repeat: no-repeat;
+    background-color: rgb(65, 21, 103);
+    /* background-repeat: no-repeat; */
     background-position: 100%;
     background-size: cover;
     height: 100%;
@@ -66,6 +66,23 @@ div.fotoGui-main{
     
 }
 
+input{
+    border: none;
+    padding: 1px;
+    width: 15pc;
+    padding: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+textarea{
+    width: 15pc;
+    position: relative;
+    top: 12px;
+    border-radius: 10px;
+}
+
 img.icons-main-img{
     width:2rem;
     border-radius: 50%;
@@ -82,4 +99,44 @@ img.icons-main-img{
 img.icons-main-img:hover{
     transition: .4s ease-in-out;
     transform: scale(1.25);
+}
+#nome{
+    /* background-color: red; */
+    position: relative;
+    bottom: 10px;
+}
+
+span{
+    /* transform: translate(10px, 20px); */
+    position: relative;
+    bottom: 10px;
+    color:rgb(50, 32, 67) ;
+    font-weight: bold;
+    font-size: 2pc;
+}
+
+form{
+    color: rgb(50, 32, 67);
+    border: 4px solid;
+    background-color: rgb(136, 120, 165);
+    padding: 14px;
+    border-radius: 10px;
+    transform: translate(0px, 10px);
+}
+
+button{
+    width: 15pc;
+    position: relative;
+    top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    transition: .5s ease-in;
+    background-color: rgb(123, 96, 174);
+}
+button:hover{
+    background-color: rgb(50, 32, 67);
+    color: white;
+    transition: .5s ease-in;
 }
